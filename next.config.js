@@ -5,8 +5,6 @@ module.exports = {
       'pbs.twimg.com' // Twitter Profile Picture
     ]
   },
-
-  distDir: 'build',
   webpack: (config, { dev, isServer }) => {
     if (isServer) {
       require('./scripts/generate-sitemap');

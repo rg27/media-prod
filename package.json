@@ -18,7 +18,8 @@
     "os": false
   },
   "scripts": {
-    "build": "next build",
+    "make-q": "node ./build.js",
+    "build": "yarn run make-q && next build",
     "dev": "next",
     "start": "next start"
   },
