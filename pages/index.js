@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 import Timeline from '../components/Timeline';
 import Container from '../components/Container';
-import BlogPost from '../components/BlogPost';
-import Subscribe from '../components/Subscribe';
+// import BlogPost from '../components/BlogPost';
+// import Subscribe from '../components/Subscribe';
 import ProjectCard from '../components/ProjectCard';
 
 export default function Home() {

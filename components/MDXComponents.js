@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+// import Link from 'next/link';
+// import Image from 'next/image';
 // import Tweet from 'react-tweet-embed';
 
 // import ProsCard from '@/components/ProsCard';
@@ -10,32 +10,32 @@ import Image from 'next/image';
 // import YouTube from '@/components/metrics/Youtube';
 // import Step from '@/components/Step';
 
-const CustomLink = (props) => {
-  const href = props.href;
-  const isInternalLink = href && (href.startsWith('/') || href.startsWith('#'));
+// const CustomLink = (props) => {
+//   const href = props.href;
+//   const isInternalLink = href && (href.startsWith('/') || href.startsWith('#'));
 
-  if (isInternalLink) {
-    return (
-      <Link href={href}>
-        <a {...props} />
-      </Link>
-    );
-  }
+//   if (isInternalLink) {
+//     return (
+//       <Link href={href}>
+//         <a {...props} />
+//       </Link>
+//     );
+//   }
 
-  return <a target="_blank" rel="noopener noreferrer" {...props} />;
-};
+//   return <a target="_blank" rel="noopener noreferrer" {...props} />;
+// };
 
-const MDXComponents = {
-  Image,
-  a: CustomLink,
-  // Analytics,
-  // ConsCard,
-  // Gumroad,
-  // ProsCard,
-  // Step,
-  // Tweet,
-  // Unsplash,
-  // YouTube
-};
+// const MDXComponents = {
+//   Image,
+//   a: CustomLink,
+//   Analytics,
+//   ConsCard,
+//   Gumroad,
+//   ProsCard,
+//   Step,
+//   Tweet,
+//   Unsplash,
+//   YouTube
+// };
 
-export default MDXComponents;
+// export default MDXComponents;
