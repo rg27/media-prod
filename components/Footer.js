@@ -27,6 +27,16 @@ export default function Footer() {
               About
             </a>
           </Link>
+          <Link href="/blog">
+            <a className="text-gray-500 hover:text-gray-600 transition">
+              Blog
+            </a>
+          </Link>
+          <Link href="/dashboard">
+            <a className="text-gray-500 hover:text-gray-600 transition">
+              Dashboard
+            </a>
+          </Link>
         </div>
       </div>
     </footer>
