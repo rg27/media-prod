@@ -58,8 +58,8 @@ export default function About() {
           </p>
           <p>
            I learned hardware and software troubleshooting on my first internship at Cebu SmartBuild,
-           an IT company in Cebu which specializes in networking products, computer accessories, FDAs, 
-           electrical wiring, installation and other technical process or solutions involving technology. 
+           an IT company in Cebu which specializes in networking products, FDAs
+          and other technical process or solutions involving technology. 
            After Cebu SmartBuild, I got my first shot in web development as web developer intern for 
            almost 3 months at Getmore Philippines where I got a chance to work on Ruby-on-Rails and Ember.js, a web framework, 
            and used bitbucket and github as a requirement for version control. I was hired by Office Partners 360 as a fulltime web developer and part of the admin team. 
