@@ -18,32 +18,20 @@ export default function Container(props) {
   const meta = {
     title: 'Rey Mar Gualvez',
     description: `Front-end developer, JavaScript enthusiast, and course creator.`,
-    image: 'https://leerob.io/static/images/banner.png',
     type: 'website',
     ...customMeta
   };
 
   return (
     <div className="bg-white dark:bg-black">
-      {/* <Head>
+      <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://leerob.io${router.asPath}`} />
-        <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Lee Robinson" />
-        <meta property="og:description" content={meta.description} />
-        <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@leeerob" />
-        <meta name="twitter:title" content={meta.title} />
-        <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
-      </Head> */}
+      </Head>
       <nav className="sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60">
         <a href="#skip" className="sr-only focus:not-sr-only">
           Skip to content
@@ -81,14 +69,6 @@ export default function Container(props) {
           )}
         </button>
         <div>
-          {/* <NextLink href="/dashboard">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-              Dashboard
-            </a>
-          </NextLink> */}
-          {/* <NextLink href="/blog">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
-          </NextLink> */}
           <NextLink href="/about">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
           </NextLink>
