@@ -25,9 +25,9 @@ export default function Footer() {
               About
             </a>
           </Link>
-          <Link href="/blog">
+          <Link href="/blogs">
             <a className="text-gray-500 hover:text-gray-600 transition">
-              Blog
+              Blogs
             </a>
           </Link>
           <Link href="/dashboard">
