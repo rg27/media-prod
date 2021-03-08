@@ -7,7 +7,7 @@ export default function Blog() {
     <Container title="Blog - Rey Mar Gualvez">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          Blog will be available soon!!
+          Blogs will be available soon!!
         </h1>
       
         <Link href="/">

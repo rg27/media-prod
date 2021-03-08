@@ -72,9 +72,6 @@ export default function About() {
           When I was not glued in my laptop, I spends time biking and jogging.
           </p>
         </div>
-        {/* 
-        
-        */}
       </div>
     </Container>
   );

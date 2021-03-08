@@ -2,7 +2,7 @@ import Timeline from '../components/Timeline';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
 
-export default function Home() {
+ const Home = () => {
   return (
     <Container>
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
@@ -44,3 +44,5 @@ export default function Home() {
     </Container>
   );
 }
+
+export default Home
