@@ -66,7 +66,7 @@ const FullTimeline = () => (
     <Year>2016</Year>
     <ul>
       <Step title="Intro to programming 🔥">
-        Proramming 101. This is the time when I first touched programming and learned to code. C was my first 
+        Proramming 101. This is the time when I first touched a programming language and learned to code. C was my first 
         language to play around and I enjoy that language a lot.
       </Step>
       <Step title="Started Struggling Engineering">
