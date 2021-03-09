@@ -68,7 +68,6 @@ export default function Container(props) {
           )}
         </button>
         <div>
-          
           <NextLink href="/">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
           </NextLink>

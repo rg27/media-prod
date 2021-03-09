@@ -62,7 +62,7 @@ export default function About() {
           and other technical process or solutions involving technology. 
            After Cebu SmartBuild, I got my first shot in web development as web developer intern for 
            almost 3 months at Getmore Philippines where I got a chance to work on Ruby-on-Rails and Ember.js, a web framework, 
-           and used bitbucket and github as a requirement for version control. I was hired by Office Partners 360 as a fulltime web developer and part of the admin team. 
+           and able to used bitbucket and github as a requirement for version control. I was hired by Office Partners 360 as a fulltime web developer and part of the admin team. 
            OP360 gives me an opportunity to explore, learn and integrate different technologies from 
            Low Code platform to web frameworks.
           </p>

@@ -11,11 +11,11 @@ import ProjectCard from '../components/ProjectCard';
         </h1>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
         I am a fullstack web developer. I spend my days developing and designing frontend
-        and backend applications and teaching about it on my <a href="https://www.youtube.com/channel/UCIoA-ACxiqT1TIkymEACHmA" target="_blank" className="text-gray-900 dark:text-gray-100 underline">
+        and backend applications and teaching on my <a href="https://www.youtube.com/channel/UCIoA-ACxiqT1TIkymEACHmA" target="_blank" className="text-gray-900 dark:text-gray-100 underline">
         youtube channel</a>. I am specializing <a href='https://laravel.com/' target="_blank"  className="text-gray-900 dark:text-gray-100 no-underline">
         Laravel framework </a> on the backend, <a href='https://reactjs.org/' target="_blank"  className="text-gray-900 dark:text-gray-100 no-underline">
         React.js </a> on the frontend and <a href='https://tailwindcss.com/' target="_blank"  className="text-gray-900 dark:text-gray-100 no-underline">
-        TailwindCSS </a> for styling. I also develop machine learning and any IOT projects.
+        TailwindCSS </a> for styling.
         </h2>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Projects
