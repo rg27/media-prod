@@ -120,7 +120,7 @@ export default function Timeline() {
       <Year>2019</Year>
       <ul>
         <Step title="Web Developer Intern ✨">
-          I am finally part of the web development team, I rendered my 3 months of OJT at Getmore PH
+          I am finally part of the web development team, I rendered my OJT for 3 months at Getmore PH
           as a web developer and I am using Ruby on Rails on the backend and Ember.js on the frontend.
         </Step>
         <Step title="IT Support Intern at Cebu Smartbuild⚛️">
