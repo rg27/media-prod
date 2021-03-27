@@ -1,25 +1,17 @@
 const title = 'Rey Mar Gualvez – Software Developer';
 const description =
-  'Front-end developer.';
+  'Fullstack Developer';
 
 const SEO = {
   title,
   description,
-  canonical: 'https://leerob.io',
+  canonical: 'https://reymargualvez.vercel.app/',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://leerob.io',
+    url: 'https://reymargualvez.vercel.app/',
     title,
-    description,
-    images: [
-      {
-        url: 'https://leerob.io/static/images/banner.png',
-        alt: title,
-        width: 1280,
-        height: 720
-      }
-    ]
+    description
   },
   twitter: {
     handle: '@gualvez_mar',
