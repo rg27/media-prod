@@ -17,29 +17,25 @@ import ProjectCard from '../components/ProjectCard';
         React.js </a> on the frontend and <a href='https://tailwindcss.com/' target="_blank"  className="text-gray-900 dark:text-gray-100 no-underline">
         TailwindCSS </a> for styling.
         </h2>
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-          Projects
-        </h3>
+        <h5 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Here are some projects I've worked on:
+        </h5>
         <ProjectCard
           title="Lorem Empsum1"
           description="Mauris ligula est, facilisis sed magna eu, luctus maximus lorem. Sed aliquam velit in erat malesuada."
-          // href="https://react2025.com/"
           icon="react2025"
         />
         <ProjectCard
           title="Lorem Empsum2"
           description="Curabitur posuere est eget orci ornare sollicitudin. Suspendisse potenti. Aliquam id lectus consectetur."
-          // href="https://masteringnextjs.com/"
           icon="nextjs"
         />
         <ProjectCard
           title="Lorem Empsum3"
           description="Donec vitae tellus dignissim, scelerisque turpis at, aliquet augue. Quisque pharetra nisi lacus."
-          // href="https://fastfeedback.io/"
           icon="fastfeedback"
         />
         <Timeline />
-        {/* <Subscribe /> */}
       </div>
     </Container>
   );
