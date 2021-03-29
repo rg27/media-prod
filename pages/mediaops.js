@@ -1,8 +1,8 @@
-import Timeline from '../components/Timeline';
-import Container from '../components/Container';
-import ProjectCard from '../components/ProjectCard';
+import Link from 'next/link';
 
- const Home = () => {
+import Container from '@/components/Container';
+
+export default function MediaOps() {
   return (
     <Container>
       <div className="justify-center ">
@@ -18,5 +18,3 @@ import ProjectCard from '../components/ProjectCard';
     </Container>
   );
 }
-
-export default Home

@@ -15,8 +15,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Rey Mar Gualvez',
-    description: `Front-end developer, Backend Developer, Machine Learning and IOT`,
+    title: 'Road Safety:How Bikeable is your community?',
+    description: `Go for a ride and use this checklist to rate your neighborhood's bikeability`,
     type: 'website',
     ...customMeta
   };
@@ -69,25 +69,19 @@ export default function Container(props) {
         </button>
         <div>
           <NextLink href="/">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
+            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Product Similarity</a>
           </NextLink>
-          <NextLink href="/about">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
-          </NextLink>
-          <NextLink href="/blog">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
-          </NextLink>
-          <NextLink href="/dashboard">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Dashboard</a>
+          <NextLink href="/mediaops">
+            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Media Ops</a>
           </NextLink>
         </div>
       </nav>
       <main
-        id="skip"
-        className="flex flex-col justify-center bg-white dark:bg-black px-8"
+        id=""
+        className="flex justify-center  bg-white dark:bg-black "
       >
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   );
