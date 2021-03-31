@@ -15,8 +15,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Road Safety:How Bikeable is your community?',
-    description: `Go for a ride and use this checklist to rate your neighborhood's bikeability`,
+    title: 'OP360 Dashboard',
+    description: `Reporting Dashboard of Office Partners 360`,
     type: 'website',
     ...customMeta
   };
